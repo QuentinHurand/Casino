@@ -39,6 +39,26 @@ canvas {
     margin: 0 auto;
 }
 
+.roulette-table {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin: 20px auto;
+    width: 300px;
+}
+
+.bet-option {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.bet-option:hover {
+    background-color: #45a049;
+}
+
 .bet-controls {
     margin-top: 20px;
 }
